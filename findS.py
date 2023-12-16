@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-#Data importing and preparation
+#Data importing and scrubbing
 dataset = pd.read_csv("EnjoySport.csv")
 
 target = list(dataset['EnjoySport'])
